@@ -1,0 +1,37 @@
+01. INTRODUCTION
+
+perl -v #check the version
+which perl #check the location
+
+vim hola.pl #create a perl file
+mv -i hola.pl hello_world.pl #change the name of the file showing if a file with that name already exits.
+
+cat hello_world.pl > base.txt #copy the contents in hello_world.pl and make a new file with the same contents called base.txt
+
+Inside vim text editor:
+
+#!/bin/perl (perl route)
+
+#Autor: Pablo Pertuz
+#Date: May 4th 2023
+#Contact: pablo@ayte.co
+#Description: screen message
+
+print "Hi perl pentesters!!!\n"; #Print an on-screen message.
+
+
+#To run the hello_world file:
+
+perl hello_world.pl
+
+OR
+
+#Giving the file execution permissions
+
+ls -l #OR ll to check current permissions
+chmod +x hello_world.pl to assign execution permissions
+
+
+#Once that is done:
+
+./hello_world.pl #this will execute the file
